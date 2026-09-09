@@ -1,0 +1,300 @@
+export const translations = {
+  en: {
+    // Announcement
+    announcement: "Welcome to R. B. Patil Vidyalaya, Sadoli Khalsa",
+    admissionOpen: "Admissions Open |",
+    enquireNow: "Enquire Now",
+    
+    // Navbar
+    home: "Home",
+    about: "About",
+    academics: "Academics",
+    facilities: "Facilities",
+    staff: "Staff",
+    events: "Events",
+    scholarships: "Scholarships",
+    admissions: "Admissions",
+    gallery: "Gallery",
+    contact: "Contact",
+    
+    // Hero
+    schoolName: "R. B. PATIL VIDYALAYA",
+    location: "Sadoli Khalsa, Taluka Karvir, District Kolhapur",
+    tagline: "स्वावलंबी शिक्षण हेच आमचे ब्रीद - कर्मवीर",
+    taglineEn: "Building Knowledge, Character & a Brighter Future",
+    heroDesc: "Creating a supportive environment where students can learn, grow, develop values and prepare for a brighter future.",
+    exploreBtn: "Explore Our School",
+    admissionBtn: "Admission Enquiry",
+    
+    // Quick Actions
+    quickAdmissions: "Admissions",
+    quickAdmissionsDesc: "Explore admission information",
+    quickAcademics: "Academics",
+    quickAcademicsDesc: "Discover our educational approach",
+    quickFacilities: "Facilities",
+    quickFacilitiesDesc: "Explore the school's learning environment",
+    quickContact: "Contact Us",
+    quickContactDesc: "Get in touch with the school",
+    
+    // About
+    aboutTitle: "About R. B. Patil Vidyalaya",
+    aboutText: "R. B. Patil Vidyalaya, also known as R.B. Patil High School, is a high school located in Sadoli Khalsa, Taluka Karvir, District Kolhapur, Maharashtra.",
+    aboutPlaceholder: "[ADD OFFICIAL SCHOOL HISTORY]",
+    learnMore: "Learn More",
+    
+    // Vision & Mission
+    vision: "Our Vision",
+    visionPlaceholder: "[ADD OFFICIAL SCHOOL VISION]",
+    mission: "Our Mission",
+    missionPlaceholder: "[ADD OFFICIAL SCHOOL MISSION]",
+    
+    // Why Choose Us
+    whyChoose: "Why Choose Our School",
+    quality: "Quality Education",
+    qualityDesc: "Committed to academic excellence and holistic development.",
+    faculty: "Experienced Faculty",
+    facultyDesc: "Dedicated teachers who inspire and guide students.",
+    development: "Student Development",
+    developmentDesc: "Focus on overall personality and skill development.",
+    discipline: "Discipline & Values",
+    disciplineDesc: "Instilling strong moral values and self-discipline.",
+    coCurricular: "Co-Curricular Activities",
+    coCurricularDesc: "Sports, arts, and cultural activities for all-round growth.",
+    supportive: "Supportive Environment",
+    supportiveDesc: "Safe, nurturing atmosphere for every student.",
+    
+    // Academics
+    academicsTitle: "Academics",
+    academicsPlaceholder: "[ADD CLASSES / STANDARDS]",
+    academicsSubjects: "[ADD SUBJECT INFORMATION]",
+    
+    // Facilities
+    facilitiesTitle: "Facilities",
+    
+    // Staff
+    staffTitle: "Our Staff",
+    principal: "Principal",
+    teaching: "Teaching Staff",
+    nonTeaching: "Non-Teaching Staff",
+    viewAll: "View All Staff",
+    
+    // Principal Message
+    principalMsg: "Message from the Principal",
+    principalPlaceholder: "[ADD PRINCIPAL NAME]",
+    principalMsgPlaceholder: "[ADD OFFICIAL PRINCIPAL MESSAGE]",
+    
+    // Events
+    eventsTitle: "Events & Activities",
+    all: "All",
+    academic: "Academic",
+    sports: "Sports",
+    cultural: "Cultural",
+    schoolActivities: "School Activities",
+    
+    // Achievements
+    achievementsTitle: "Achievements",
+    achievementPlaceholder: "[ADD OFFICIAL ACHIEVEMENTS]",
+    
+    // Scholarships
+    scholarshipsTitle: "Scholarships",
+    available: "Available Scholarships",
+    eligibility: "Eligibility",
+    documents: "Required Documents",
+    process: "Application Process",
+    info: "Important Information",
+    scholarshipPlaceholder: "[ADD OFFICIAL SCHOLARSHIP INFORMATION]",
+    
+    // Admissions
+    admissionsTitle: "Start Your Child's Journey With Us",
+    admissionsDesc: "Get information about the admission process, requirements and school enquiries.",
+    step1: "01 — Enquiry",
+    step1Desc: "Contact the school",
+    step2: "02 — Application",
+    step2Desc: "Complete the admission process",
+    step3: "03 — Verification",
+    step3Desc: "Submit required documents",
+    step4: "04 — Confirmation",
+    step4Desc: "Complete the admission formalities",
+    admissionProcess: "[ADD OFFICIAL ADMISSION PROCESS]",
+    requiredDocs: "[ADD REQUIRED DOCUMENTS]",
+    admissionDates: "[ADD ADMISSION DATES]",
+    callAdmission: "Call for Admission",
+    whatsappEnquiry: "WhatsApp Enquiry",
+    
+    // Contact
+    contactTitle: "Contact R. B. Patil Vidyalaya",
+    address: "Sadoli Khalsa, Taluka Karvir, District Kolhapur, Maharashtra, India",
+    phone: "[ADD SCHOOL PHONE NUMBER]",
+    whatsapp: "[ADD WHATSAPP NUMBER]",
+    email: "[ADD SCHOOL EMAIL]",
+    timing: "[ADD SCHOOL TIMING]",
+    getDirections: "Get Directions",
+    fullName: "Full Name",
+    phoneNumber: "Phone Number",
+    studentName: "Student Name",
+    class: "Class",
+    enquiryType: "Enquiry Type",
+    message: "Message",
+    submit: "Submit Enquiry",
+    successMsg: "Thank you for your enquiry. We will contact you soon.",
+    
+    // FAQ
+    faqTitle: "Frequently Asked Questions",
+    faq1: "How can I contact the school?",
+    faq2: "How can I enquire about admission?",
+    faq3: "What documents are required for admission?",
+    faq4: "What classes are available?",
+    faq5: "Are scholarship opportunities available?",
+    faq1Ans: "[ADD OFFICIAL ANSWER]",
+    faq2Ans: "[ADD OFFICIAL ANSWER]",
+    faq3Ans: "[ADD OFFICIAL ANSWER]",
+    faq4Ans: "[ADD OFFICIAL ANSWER]",
+    faq5Ans: "[ADD OFFICIAL ANSWER]",
+    
+    // Footer
+    quickLinks: "Quick Links",
+    importantSections: "Important Sections",
+    rights: "© 2026 R. B. Patil Vidyalaya. All Rights Reserved.",
+    designed: "Designed & Developed by Aryan Patil"
+  },
+  mr: {
+    announcement: "रा. बा. पाटील विद्यालय, सडोली खालसा येथे आपले स्वागत आहे",
+    admissionOpen: "प्रवेश सुरू ",
+    enquireNow: "आता चौकशी करा",
+    
+    home: "मुख्यपृष्ठ",
+    about: "आमच्याबद्दल",
+    academics: "शैक्षणिक",
+    facilities: "सुविधा",
+    staff: "कर्मचारी",
+    events: "कार्यक्रम",
+    scholarships: "शिष्यवृत्ती",
+    admissions: "प्रवेश",
+    gallery: "गॅलरी",
+    contact: "संपर्क",
+    
+    schoolName: "रा. बा. पाटील विद्यालय",
+    location: "सडोली खालसा, तालुका करवीर, जिल्हा कोल्हापूर",
+    tagline:"स्वावलंबी शिक्षण हेच आमचे ब्रीद - कर्मवीर",
+    taglineEn: "ज्ञान, संस्कार आणि उज्ज्वल भविष्य घडवणे",
+    heroDesc: "एक आधार देणारे वातावरण तयार करणे जिथे विद्यार्थी शिकू शकतात, वाढू शकतात, मूल्ये विकसित करू शकतात आणि उज्ज्वल भविष्यासाठी तयार होऊ शकतात.",
+    exploreBtn: "आमची शाळा एक्सप्लोर करा",
+    admissionBtn: "प्रवेश चौकशी",
+    
+    quickAdmissions: "प्रवेश",
+    quickAdmissionsDesc: "प्रवेश माहिती एक्सप्लोर करा",
+    quickAcademics: "शैक्षणिक",
+    quickAcademicsDesc: "आमचा शैक्षणिक दृष्टिकोन जाणून घ्या",
+    quickFacilities: "सुविधा",
+    quickFacilitiesDesc: "शाळेचे शिक्षण वातावरण एक्सप्लोर करा",
+    quickContact: "संपर्क करा",
+    quickContactDesc: "शाळेशी संपर्क साधा",
+    
+    aboutTitle: "रा. बा. पाटील विद्यालयाबद्दल",
+    aboutText: "रा. बा. पाटील विद्यालय, ज्याला आर.बी. पाटील हायस्कूल म्हणूनही ओळखले जाते, हे सडोली खालसा, तालुका करवीर, जिल्हा कोल्हापूर, महाराष्ट्र येथे स्थित एक हायस्कूल आहे.",
+    aboutPlaceholder: "[ADD OFFICIAL SCHOOL HISTORY - मराठी]",
+    learnMore: "अधिक जाणून घ्या",
+    
+    vision: "आमचे दूरदर्शन",
+    visionPlaceholder: "[ADD OFFICIAL SCHOOL VISION - मराठी]",
+    mission: "आमचे ध्येय",
+    missionPlaceholder: "[ADD OFFICIAL SCHOOL MISSION - मराठी]",
+    
+    whyChoose: "आमची शाळा का निवडावी",
+    quality: "गुणवत्तापूर्ण शिक्षण",
+    qualityDesc: "शैक्षणिक उत्कृष्टता आणि सर्वांगीण विकासासाठी वचनबद्ध.",
+    faculty: "अनुभवी शिक्षक",
+    facultyDesc: "समर्पित शिक्षक जे विद्यार्थ्यांना प्रेरणा आणि मार्गदर्शन करतात.",
+    development: "विद्यार्थी विकास",
+    developmentDesc: "एकूण व्यक्तिमत्व आणि कौशल्य विकासावर लक्ष.",
+    discipline: "शिस्त आणि मूल्ये",
+    disciplineDesc: "मजबूत नैतिक मूल्ये आणि आत्म-शिस्त रुजवणे.",
+    coCurricular: "सह-अभ्यासक्रम उपक्रम",
+    coCurricularDesc: "सर्वांगीण विकासासाठी खेळ, कला आणि सांस्कृतिक उपक्रम.",
+    supportive: "आधार देणारे वातावरण",
+    supportiveDesc: "प्रत्येक विद्यार्थ्यासाठी सुरक्षित, पोषक वातावरण.",
+    
+    academicsTitle: "शैक्षणिक",
+    academicsPlaceholder: "[ADD CLASSES / STANDARDS - मराठी]",
+    academicsSubjects: "[ADD SUBJECT INFORMATION - मराठी]",
+    
+    facilitiesTitle: "सुविधा",
+    
+    staffTitle: "आमचे कर्मचारी",
+    principal: "प्राचार्य",
+    teaching: "शिक्षक कर्मचारी",
+    nonTeaching: "अशिक्षक कर्मचारी",
+    viewAll: "सर्व कर्मचारी पहा",
+    
+    principalMsg: "प्राचार्यांचा संदेश",
+    principalPlaceholder: "[ADD PRINCIPAL NAME - मराठी]",
+    principalMsgPlaceholder: "[ADD OFFICIAL PRINCIPAL MESSAGE - मराठी]",
+    
+    eventsTitle: "कार्यक्रम आणि उपक्रम",
+    all: "सर्व",
+    academic: "शैक्षणिक",
+    sports: "क्रीडा",
+    cultural: "सांस्कृतिक",
+    schoolActivities: "शालेय उपक्रम",
+    
+    achievementsTitle: "यश",
+    achievementPlaceholder: "[ADD OFFICIAL ACHIEVEMENTS - मराठी]",
+    
+    scholarshipsTitle: "शिष्यवृत्ती",
+    available: "उपलब्ध शिष्यवृत्ती",
+    eligibility: "पात्रता",
+    documents: "आवश्यक कागदपत्रे",
+    process: "अर्ज प्रक्रिया",
+    info: "महत्वाची माहिती",
+    scholarshipPlaceholder: "[ADD OFFICIAL SCHOLARSHIP INFORMATION - मराठी]",
+    
+    admissionsTitle: "आमच्यासह आपल्या मुलाचा प्रवास सुरू करा",
+    admissionsDesc: "प्रवेश प्रक्रिया, आवश्यकता आणि शालेय चौकशीबद्दल माहिती मिळवा.",
+    step1: "०१ — चौकशी",
+    step1Desc: "शाळेशी संपर्क साधा",
+    step2: "०२ — अर्ज",
+    step2Desc: "प्रवेश प्रक्रिया पूर्ण करा",
+    step3: "०३ — पडताळणी",
+    step3Desc: "आवश्यक कागदपत्रे सबमिट करा",
+    step4: "०४ — पुष्टीकरण",
+    step4Desc: "प्रवेश औपचारिकता पूर्ण करा",
+    admissionProcess: "[ADD OFFICIAL ADMISSION PROCESS - मराठी]",
+    requiredDocs: "[ADD REQUIRED DOCUMENTS - मराठी]",
+    admissionDates: "[ADD ADMISSION DATES - मराठी]",
+    callAdmission: "प्रवेशासाठी कॉल करा",
+    whatsappEnquiry: "व्हॉट्सॲप चौकशी",
+    
+    contactTitle: "रा. बा. पाटील विद्यालयाशी संपर्क साधा",
+    address: "सडोली खालसा, तालुका करवीर, जिल्हा कोल्हापूर, महाराष्ट्र, भारत",
+    phone: "[ADD SCHOOL PHONE NUMBER - मराठी]",
+    whatsapp: "[ADD WHATSAPP NUMBER - मराठी]",
+    email: "[ADD SCHOOL EMAIL - मराठी]",
+    timing: "[ADD SCHOOL TIMING - मराठी]",
+    getDirections: "दिशा मिळवा",
+    fullName: "पूर्ण नाव",
+    phoneNumber: "फोन नंबर",
+    studentName: "विद्यार्थ्याचे नाव",
+    class: "वर्ग",
+    enquiryType: "चौकशीचा प्रकार",
+    message: "संदेश",
+    submit: "चौकशी सबमिट करा",
+    successMsg: "तुमच्या चौकशीबद्दल धन्यवाद. आम्ही लवकरच तुमच्याशी संपर्क साधू.",
+    
+    faqTitle: "वारंवार विचारले जाणारे प्रश्न",
+    faq1: "मी शाळेशी कसे संपर्क साधू शकतो?",
+    faq2: "मी प्रवेशाबद्दल कसे चौकशी करू शकतो?",
+    faq3: "प्रवेशासाठी कोणती कागदपत्रे आवश्यक आहेत?",
+    faq4: "कोणते वर्ग उपलब्ध आहेत?",
+    faq5: "शिष्यवृत्तीच्या संधी उपलब्ध आहेत का?",
+    faq1Ans: "[ADD OFFICIAL ANSWER - मराठी]",
+    faq2Ans: "[ADD OFFICIAL ANSWER - मराठी]",
+    faq3Ans: "[ADD OFFICIAL ANSWER - मराठी]",
+    faq4Ans: "[ADD OFFICIAL ANSWER - मराठी]",
+    faq5Ans: "[ADD OFFICIAL ANSWER - मराठी]",
+    
+    quickLinks: "द्रुत दुवे",
+    importantSections: "महत्वाचे विभाग",
+    rights: "© २०२६ रा. बा. पाटील विद्यालय. सर्व हक्क राखीव.",
+    designed: "आर्यन पाटील यांनी डिझाइन आणि विकसित केले"
+  }
+};

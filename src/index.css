@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --navy: #0a2540;
+  --royal: #1a4b7a;
+  --gold: #c9a84c;
+  --gold-light: #f0e4c8;
+  --gray: #f8f9fb;
+  --white: #ffffff;
+  --dark: #1e2a3a;
+  --shadow: 0 10px 40px rgba(0,0,0,0.08);
+  --shadow-hover: 0 20px 60px rgba(0,0,0,0.12);
+  --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', 'Noto Sans Devanagari', sans-serif;
+  background: var(--white);
+  color: var(--dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.section-title span {
+  color: var(--gold);
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #5a6a7a;
+  max-width: 600px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 36px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: var(--transition);
+  cursor: pointer;
+  border: none;
+  letter-spacing: 0.3px;
+}
+
+.btn-primary {
+  background: var(--gold);
+  color: var(--navy);
+  box-shadow: 0 4px 15px rgba(201, 168, 76, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(201, 168, 76, 0.4);
+  background: #b8953a;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--gold);
+  color: var(--gold);
+}
+
+.btn-outline:hover {
+  background: var(--gold);
+  color: var(--navy);
+  transform: translateY(-3px);
+}
+
+.btn-navy {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.btn-navy:hover {
+  background: var(--royal);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(10, 37, 64, 0.3);
+}
+
+/* Scroll Animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .section {
+    padding: 60px 0;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 50px 0;
+  }
+  .section-title {
+    font-size: 1.7rem;
+  }
+  .container {
+    padding: 0 16px;
+  }
+}
