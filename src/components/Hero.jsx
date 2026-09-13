@@ -6,6 +6,22 @@ const Hero = () => {
   const { language } = useLanguage();
   const t = translations[language];
 
+  // Function to scroll smoothly to the Contact section
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  // Function to scroll to the "About / Explore School" section (optional)
+  const scrollToExplore = () => {
+    const aboutSection = document.getElementById('about'); // Ensure your About section has id="about"
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section 
       id="home" 
@@ -20,7 +36,8 @@ const Hero = () => {
       <div className="hero-overlay"></div>
       <div className="container hero-content">
         <div className="hero-badge">
-          <span className="hero-badge-text">EST. [1995]</span>
+          {/* Updated badge based on your poster info */}
+          <span className="hero-badge-text">🏛️ ISO मानांकित शाळा | EST. [1995]</span>
         </div>
         <h1 className="hero-title">{t.schoolName}</h1>
         <p className="hero-location">{t.location}</p>
@@ -28,8 +45,12 @@ const Hero = () => {
         <p className="hero-sub">{t.taglineEn}</p>
         <p className="hero-desc">{t.heroDesc}</p>
         <div className="hero-buttons">
-          <button className="btn btn-primary">{t.exploreBtn}</button>
-          <button className="btn btn-outline">{t.admissionBtn}</button>
+          <button className="btn btn-primary" onClick={scrollToExplore}>
+            {t.exploreBtn}
+          </button>
+          <button className="btn btn-outline" onClick={scrollToContact}>
+            {t.admissionBtn}
+          </button>
         </div>
       </div>
     </section>

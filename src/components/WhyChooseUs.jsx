@@ -18,12 +18,25 @@ const WhyChooseUs = () => {
   return (
     <section id="about" className="section">
       <div className="container">
-        <h2 className="section-title text-center">{t.whyChoose}</h2>
-        <p className="section-subtitle text-center">[ADD SCHOOL'S UNIQUE VALUE PROPOSITION]</p>
+        <h2 className="section-title text-center">
+          {t.whyChoose}
+        </h2>
+
+        <p className="section-subtitle text-center">
+          {t.whyChooseUsSubtitle}
+        </p>
+
         <div className="features-grid">
           {features.map((item, index) => (
-            <div className="feature-card fade-up" key={index} style={{ transitionDelay: `${index * 0.1}s` }}>
-              <div className="feature-icon"><i className={`fas ${item.icon}`}></i></div>
+            <div
+              className="feature-card fade-up"
+              key={`${item.title}-${index}`}
+              style={{ transitionDelay: `${index * 0.1}s` }}
+            >
+              <div className="feature-icon">
+                <i className={`fas ${item.icon}`}></i>
+              </div>
+
               <h4>{item.title}</h4>
               <p>{item.desc}</p>
             </div>

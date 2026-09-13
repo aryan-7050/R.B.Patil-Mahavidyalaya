@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../data/translations';
@@ -38,9 +37,6 @@ const Contact = () => {
     }, 4000);
   };
 
-  // =====================================================
-  // R. B. PATIL VIDYALAYA - GOOGLE MAPS LOCATION
-  // =====================================================
 
   const latitude = 16.6027422;
   const longitude = 74.1417668;
@@ -57,16 +53,13 @@ const Contact = () => {
   const directionsUrl =
     `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`;
 
-  // =====================================================
-  // SCHOOL INFORMATION
-  // =====================================================
 
   const schoolInfo = {
     name: 'R. B. Patil Vidyalaya',
     address:
       'Sadoli Khalsa, Taluka Karvir, District Kolhapur, Maharashtra, India',
-    phone: '[ADD SCHOOL PHONE NUMBER]',
-    email: '[ADD SCHOOL EMAIL]',
+    phone: '9822478996',
+    email: 'sadolikhalsarbpvsr@gmail.com',
     rating: '★★★★★',
     reviews: 'No reviews yet',
     type: 'High School',
@@ -77,9 +70,6 @@ const Contact = () => {
     <section id="contact" className="section">
       <div className="container">
 
-        {/* =========================
-            SECTION HEADER
-        ========================== */}
 
         <h2 className="section-title text-center">
           {t.contactTitle}
@@ -91,9 +81,6 @@ const Contact = () => {
 
         <div className="contact-wrapper">
 
-          {/* =========================
-              LEFT - CONTACT FORM
-          ========================== */}
 
           <div className="contact-left">
 
@@ -202,17 +189,11 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* =========================
-              RIGHT - GOOGLE MAP
-          ========================== */}
 
           <div className="contact-right">
 
             <div className="map-container-full">
 
-              {/* =========================
-                  MAP SIDEBAR
-              ========================== */}
 
               <div className="map-sidebar">
 
@@ -262,9 +243,6 @@ const Contact = () => {
 
                 </div>
 
-                {/* =========================
-                    SCHOOL CONTACT INFO
-                ========================== */}
 
                 <div className="map-sidebar-info">
 
@@ -278,9 +256,12 @@ const Contact = () => {
                         Phone
                       </span>
 
-                      <span className="info-value">
+                      <a
+                        href={`tel:${schoolInfo.phone}`}
+                        className="info-value"
+                      >
                         {schoolInfo.phone}
-                      </span>
+                      </a>
                     </div>
 
                   </div>
@@ -295,9 +276,12 @@ const Contact = () => {
                         Email
                       </span>
 
-                      <span className="info-value">
+                      <a
+                        href={`mailto:${schoolInfo.email}`}
+                        className="info-value"
+                      >
                         {schoolInfo.email}
-                      </span>
+                      </a>
                     </div>
 
                   </div>
@@ -320,10 +304,6 @@ const Contact = () => {
                   </div>
 
                 </div>
-
-                {/* =========================
-                    MAP ACTION BUTTONS
-                ========================== */}
 
                 <div className="map-sidebar-actions">
 
@@ -355,9 +335,6 @@ const Contact = () => {
 
               </div>
 
-              {/* =========================
-                  GOOGLE MAP IFRAME
-              ========================== */}
 
               <div className="map-embed-container">
 

@@ -11,10 +11,16 @@ const Facilities = () => {
     <section id="facilities" className="section">
       <div className="container">
         <h2 className="section-title text-center">{t.facilitiesTitle}</h2>
-        <p className="section-subtitle text-center">Explore our world-class facilities</p>
+        <p className="section-subtitle text-center">
+          {t.facilitiesSubtitle}
+        </p>
         <div className="facilities-grid">
           {facilitiesData.map((item, index) => (
-            <div className="facility-card fade-up" key={item.id} style={{ transitionDelay: `${index * 0.05}s` }}>
+            <div
+              className="facility-card fade-up"
+              key={`facility-${item.id}-${index}`}
+              style={{ transitionDelay: `${index * 0.05}s` }}
+            >
               <div className="facility-icon"><i className={`fas ${item.icon}`}></i></div>
               <h4>{language === 'mr' ? item.nameMr : item.name}</h4>
               <p>{language === 'mr' ? item.descriptionMr : item.description}</p>

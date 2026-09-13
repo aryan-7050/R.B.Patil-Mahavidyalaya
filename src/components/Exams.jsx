@@ -10,17 +10,22 @@ const Exams = () => {
       title: 'Scholarship Exams',
       titleMr: 'शिष्यवृत्ती परीक्षा',
       exams: [
-        { name: 'NMMS (National Means cum Merit Scholarship)', nameMr: 'एनएमएमएस' },
-        { name: '7th Scholarship', nameMr: '७ वी शिष्यवृत्ती' },
-        { name: 'Navodaya 5th', nameMr: 'नवोदय ५ वी' }
+        { name: '5th to 7th Scholarship', nameMr: 'इ. 5 वी ते 7 वी स्कॉलरशिप' },
+        { name: '8th Scholarship', nameMr: '8 वी स्कॉलरशिप' },
+        { name: 'NMMS', nameMr: 'NMMS' },
+        { name: 'NTS', nameMr: 'NTS' },
+        { name: 'Sarathi Scholarship', nameMr: 'सारथी शिष्यवृत्ती' },
+        { name: 'Navodaya Entrance Exam', nameMr: 'नवोदय विद्यालय प्रवेश परीक्षा' }
       ]
     },
     competitive: {
-      title: 'Competitive Exams',
-      titleMr: 'स्पर्धा परीक्षा',
+      title: 'Competitive & Board Exams',
+      titleMr: 'स्पर्धा व बोर्ड परीक्षा',
       exams: [
-        { name: 'Karmaveer Vidya Prabodh Exam', nameMr: 'कर्मवीर विद्या प्रबोधन परीक्षा' },
-        { name: 'RTS (Rajya Tolaram Sangh)', nameMr: 'आरटीएस' }
+        { name: 'S.S.C. Board Exam', nameMr: 'S.S.C. बोर्ड परीक्षा' },
+        { name: 'RTS', nameMr: 'RTS' },
+        { name: 'Drawing Grade Exam', nameMr: 'चित्रकला परीक्षा' },
+        { name: 'Govt. Drawing Grade Board Exam Center', nameMr: 'शासकीय चित्रकला ग्रेड बोर्ड परीक्षा केंद्र' }
       ]
     },
     campus: {
@@ -35,7 +40,8 @@ const Exams = () => {
       title: 'Skills Development',
       titleMr: 'कौशल्य विकास',
       programs: [
-        { name: 'SIV (Skill Integrated Vocational)', nameMr: 'एसआयव्ही' }
+        { name: 'SIV (Skill Integrated Vocational)', nameMr: 'एसआयव्ही' },
+        { name: 'Atal Tinkering Lab', nameMr: 'अटल टिंकरिंग लॅब' }
       ]
     }
   };
@@ -44,7 +50,7 @@ const Exams = () => {
     <section id="exams" className="section" style={{ background: 'var(--gray)' }}>
       <div className="container">
         <h2 className="section-title text-center">Examinations & Achievements</h2>
-        <p className="section-subtitle text-center">[ADD EXAM OVERVIEW]</p>
+        <p className="section-subtitle text-center">विविध स्पर्धा व शिष्यवृत्ती परीक्षांचे मार्गदर्शन</p>
         
         <div className="exams-grid">
           {/* Scholarship Exams */}
@@ -58,7 +64,7 @@ const Exams = () => {
             </ul>
           </div>
 
-          {/* Competitive Exams */}
+          {/* Competitive & Board Exams */}
           <div className="exam-card fade-up" style={{ transitionDelay: '0.1s' }}>
             <div className="exam-icon"><i className="fas fa-trophy"></i></div>
             <h4>{language === 'mr' ? examsData.competitive.titleMr : examsData.competitive.title}</h4>

@@ -70,7 +70,15 @@ export const facilitiesData = [
     nameMr: 'वसतिगृह',
     description: 'Safe and comfortable residential facility for outstation students.',
     descriptionMr: 'बाहेरगावच्या विद्यार्थ्यांसाठी सुरक्षित आणि आरामदायी निवासी सुविधा.'
-  }
+  },
+  {
+  id: 10,
+  icon: 'fa-school',
+  name: 'Gurukul Prakalp',
+  nameMr: 'गुरुकुल प्रकल्प',
+  description: 'A dedicated Gurukul Prakalp for students from 5th to 10th standard, focusing on academic excellence, discipline, values, and overall personality development.',
+  descriptionMr: 'इयत्ता ५ वी ते १० वीच्या विद्यार्थ्यांसाठी शैक्षणिक गुणवत्ता, शिस्त, संस्कार आणि सर्वांगीण व्यक्तिमत्त्व विकासावर भर देणारा विशेष गुरुकुल प्रकल्प.'
+},
 ];
 
 export default facilitiesData;

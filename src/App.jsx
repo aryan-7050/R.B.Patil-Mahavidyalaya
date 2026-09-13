@@ -1,5 +1,6 @@
 // src/App.jsx
 import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // MUST HAVE THIS
 import { LanguageProvider } from './context/LanguageContext';
 import AnnouncementBar from './components/AnnouncementBar';
 import Navbar from './components/Navbar';
@@ -12,10 +13,9 @@ import Facilities from './components/Facilities';
 import Staff from './components/Staff';
 import PrincipalMessage from './components/PrincipalMessage';
 import Events from './components/Events';
-import Exams from './components/Exams';  // FIXED: Capital E and correct file name
+import Exams from './components/Exams';
 import Achievements from './components/Achievements';
 import Admissions from './components/Admissions';
-import Gallery from './components/Gallery';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -43,25 +43,36 @@ function App() {
 
   return (
     <LanguageProvider>
-      <AnnouncementBar />
-      <Navbar />
-      <Hero />
-      <QuickActions />
-      <About />
-      <VisionMission />
-      <WhyChooseUs />
-      <Facilities />
-      <Exams />  
-      <PrincipalMessage />
-      <Staff />
-      <Events />
-      <Achievements />
-      <Admissions />
-      <Gallery />
-      <FAQ />
-      <Contact />
-      <Footer />
-      <FloatingButtons />
+      <Router> {/* Wrap EVERYTHING in Router */}
+        <AnnouncementBar />
+        <Navbar />
+        
+        <Routes>
+          {/* Main Home Page */}
+          <Route path="/" element={
+            <>
+              <Hero />
+              <QuickActions />
+              <About />
+              <VisionMission />
+              <WhyChooseUs />
+              <Facilities />
+              <Exams />  
+              <PrincipalMessage />
+              <Staff />
+              <Events />
+              <Achievements />
+              <Admissions />
+              <FAQ />
+              <Contact />
+              <Footer />
+              <FloatingButtons />
+            </>
+          } />
+
+          
+        </Routes>
+      </Router>
     </LanguageProvider>
   );
 }

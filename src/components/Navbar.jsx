@@ -1,3 +1,4 @@
+// src/components/Navbar.jsx
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../data/translations';
@@ -19,23 +20,40 @@ const Navbar = () => {
   const navItems = [
     { key: 'home', label: t.home },
     { key: 'about', label: t.about },
-    { key: 'academics', label: t.academics },
     { key: 'facilities', label: t.facilities },
     { key: 'staff', label: t.staff },
     { key: 'events', label: t.events },
     { key: 'admissions', label: t.admissions },
-    { key: 'gallery', label: t.gallery },
     { key: 'contact', label: t.contact },
   ];
+
+  // Smooth scroll to section by id
+  const handleNavClick = (e, key) => {
+    e.preventDefault();
+    setMobileOpen(false);
+
+    // Special case: 'home' scrolls to top
+    if (key === 'home') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
+    const section = document.getElementById(key);
+    if (section) {
+      const navbarHeight = 80; // offset for sticky navbar
+      const top = section.getBoundingClientRect().top + window.scrollY - navbarHeight;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  };
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="nav-logo">
           {/* School Logo Image */}
-          <img 
-            src="/images/WhatsApp%20Image%202026-09-07%20at%202.46.32%20PM.jpeg" 
-            alt="R. B. Patil Vidyalaya Logo" 
+          <img
+            src="/images/WhatsApp%20Image%202026-09-07%20at%202.46.32%20PM.jpeg"
+            alt="R. B. Patil Vidyalaya Logo"
             className="school-logo-img"
           />
           <div className="nav-logo-text">
@@ -47,19 +65,24 @@ const Navbar = () => {
         <ul className={`nav-links ${mobileOpen ? 'open' : ''}`}>
           {navItems.map(item => (
             <li key={item.key}>
-              <a href={`#${item.key}`}>{item.label}</a>
+              <a
+                href={`#${item.key}`}
+                onClick={(e) => handleNavClick(e, item.key)}
+              >
+                {item.label}
+              </a>
             </li>
           ))}
           <li>
             <div className="lang-toggle">
-              <button 
-                className={language === 'en' ? 'active' : ''} 
+              <button
+                className={language === 'en' ? 'active' : ''}
                 onClick={() => toggleLanguage()}
               >
                 English
               </button>
-              <button 
-                className={language === 'mr' ? 'active' : ''} 
+              <button
+                className={language === 'mr' ? 'active' : ''}
                 onClick={() => toggleLanguage()}
               >
                 मराठी

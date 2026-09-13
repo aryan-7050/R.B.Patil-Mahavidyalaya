@@ -1,8 +1,8 @@
 
 export const staffData = {
   principal: {
-    name: '[ADD PRINCIPAL NAME]',
-    nameMr: '[ADD PRINCIPAL NAME - मराठी]',
+    name: 'Shivaji Patil',
+    nameMr: 'शिवाजी पाटील',
     designation: 'Principal',
     designationMr: 'प्राचार्य',
     qualification: '[ADD QUALIFICATION]',

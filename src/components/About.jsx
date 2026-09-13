@@ -10,17 +10,45 @@ const About = () => {
     <section id="about" className="section">
       <div className="container">
         <div className="about-grid">
+
+          {/* School Image */}
           <div className="about-image fade-up">
             <div className="about-img-placeholder">
-              <i className="fas fa-school"></i>
-              <span>School Image</span>
+              <img
+                src="/images/IMG-20260908-WA0081.jpg"
+                alt="R. B. Patil Vidyalaya, Sadoli Khalsa"
+                className="about-school-image"
+              />
+
+              <div className="about-image-badge">
+                <strong>EST. 1995</strong>
+                <span>{t.isoSchool}</span>
+              </div>
             </div>
           </div>
+
+          {/* About Content */}
           <div className="about-text fade-up">
-            <h2 className="section-title">{t.aboutTitle}</h2>
-            <p>{t.aboutText}</p>
-            <p className="about-placeholder">{t.aboutPlaceholder}</p>
-            <button className="btn btn-primary">{t.learnMore}</button>
+
+            <span className="section-label">
+              {t.aboutLabel}
+            </span>
+
+            <h2 className="section-title">
+              {t.aboutTitle}
+            </h2>
+
+            <p className="about-intro">
+              {t.aboutText}
+            </p>
+
+            <p>
+              {t.aboutHistory}
+            </p>
+
+          
+            
+
           </div>
         </div>
       </div>
