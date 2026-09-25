@@ -213,19 +213,19 @@ WhyChooseUsSubtitle: "Discover what makes R. B. Patil Vidyalaya a trusted choice
       "Thank you for your enquiry. We will contact you soon.",
 
     // FAQ
-    faqTitle: "Frequently Asked Questions",
+faqTitle: "Frequently Asked Questions",
 
-    faq1: "How can I contact the school?",
-    faq2: "How can I enquire about admission?",
-    faq3: "What documents are required for admission?",
-    faq4: "What classes are available?",
-    faq5: "Are scholarship opportunities available?",
+faq1: "How can I contact the school?",
+faq2: "How can I enquire about admissions?",
+faq3: "What documents are required for admission?",
+faq4: "Which classes are available?",
+faq5: "Are scholarship opportunities available?",
 
-    faq1Ans: "[ADD OFFICIAL ANSWER]",
-    faq2Ans: "[ADD OFFICIAL ANSWER]",
-    faq3Ans: "[ADD OFFICIAL ANSWER]",
-    faq4Ans: "[ADD OFFICIAL ANSWER]",
-    faq5Ans: "[ADD OFFICIAL ANSWER]",
+faq1Ans: "You can contact the school through the official contact details provided on the website, including the school office phone number, email address, or by visiting the school.",
+faq2Ans: "For admission enquiries, please contact the school office or visit the school during working hours. Our staff will guide you through the admission process.",
+faq3Ans: "Admission requirements may include the student's birth certificate, previous school records, transfer certificate, passport-size photographs, Aadhaar card, and other documents as required by the school.",
+faq4Ans: "The school offers classes according to its current academic structure. Please contact the school office for the latest information about available classes and admissions.",
+faq5Ans: "Scholarship opportunities may be available for eligible students. Please contact the school office to learn about eligibility criteria, required documents, and the application process.",
 
     // Footer
     quickLinks: "Quick Links",
@@ -322,7 +322,7 @@ WhyChooseUsSubtitle: "Discover what makes R. B. Patil Vidyalaya a trusted choice
     // Why Choose Us
     whyChoose: "आमची शाळा का निवडावी",
     WhyChooseUsSubtitle: "उत्तम शिक्षण आणि विद्यार्थ्यांच्या सर्वांगीण विकासासाठी R. B. Patil Vidyalaya ही विश्वासार्ह निवड का आहे ते जाणून घ्या.",
-    
+
     quality: "गुणवत्तापूर्ण शिक्षण",
     qualityDesc:
       "शैक्षणिक उत्कृष्टता आणि सर्वांगीण विकासासाठी वचनबद्ध.",
@@ -483,19 +483,20 @@ WhyChooseUsSubtitle: "Discover what makes R. B. Patil Vidyalaya a trusted choice
       "तुमच्या चौकशीबद्दल धन्यवाद. आम्ही लवकरच तुमच्याशी संपर्क साधू.",
 
     // FAQ
-    faqTitle: "वारंवार विचारले जाणारे प्रश्न",
+  // Marathi
+faqTitle: "वारंवार विचारले जाणारे प्रश्न",
 
-    faq1: "मी शाळेशी कसे संपर्क साधू शकतो?",
-    faq2: "मी प्रवेशाबद्दल कसे चौकशी करू शकतो?",
-    faq3: "प्रवेशासाठी कोणती कागदपत्रे आवश्यक आहेत?",
-    faq4: "कोणते वर्ग उपलब्ध आहेत?",
-    faq5: "शिष्यवृत्तीच्या संधी उपलब्ध आहेत का?",
+faq1: "मी शाळेशी कसे संपर्क साधू शकतो?",
+faq2: "मी प्रवेशाबद्दल कसे चौकशी करू शकतो?",
+faq3: "प्रवेशासाठी कोणती कागदपत्रे आवश्यक आहेत?",
+faq4: "कोणते वर्ग उपलब्ध आहेत?",
+faq5: "शिष्यवृत्तीच्या संधी उपलब्ध आहेत का?",
 
-    faq1Ans: "[ADD OFFICIAL ANSWER - मराठी]",
-    faq2Ans: "[ADD OFFICIAL ANSWER - मराठी]",
-    faq3Ans: "[ADD OFFICIAL ANSWER - मराठी]",
-    faq4Ans: "[ADD OFFICIAL ANSWER - मराठी]",
-    faq5Ans: "[ADD OFFICIAL ANSWER - मराठी]",
+faq1Ans: "वेबसाइटवर दिलेल्या अधिकृत संपर्क क्रमांक, ई-मेलद्वारे किंवा शाळेच्या कार्यालयाला भेट देऊन आपण शाळेशी संपर्क साधू शकता.",
+faq2Ans: "प्रवेशाबाबत चौकशी करण्यासाठी शाळेच्या कार्यालयाशी संपर्क साधावा किंवा कार्यालयीन वेळेत शाळेला भेट द्यावी. आमचे कर्मचारी प्रवेश प्रक्रियेबाबत योग्य मार्गदर्शन करतील.",
+faq3Ans: "प्रवेशासाठी विद्यार्थ्याचे जन्म प्रमाणपत्र, मागील शाळेचे शैक्षणिक कागदपत्रे, शाळा सोडल्याचा दाखला, पासपोर्ट आकाराचे फोटो, आधार कार्ड आणि शाळेने आवश्यक केलेली इतर कागदपत्रे आवश्यक असू शकतात.",
+faq4Ans: "शाळेत सध्याच्या शैक्षणिक रचनेनुसार विविध वर्ग उपलब्ध आहेत. उपलब्ध वर्ग आणि प्रवेशाबाबत अधिक माहितीसाठी शाळेच्या कार्यालयाशी संपर्क साधावा.",
+faq5Ans: "पात्र विद्यार्थ्यांसाठी शिष्यवृत्तीच्या संधी उपलब्ध असू शकतात. पात्रता, आवश्यक कागदपत्रे आणि अर्ज प्रक्रियेबाबत अधिक माहितीसाठी शाळेच्या कार्यालयाशी संपर्क साधावा.",
 
     // Footer
     quickLinks: "द्रुत दुवे",

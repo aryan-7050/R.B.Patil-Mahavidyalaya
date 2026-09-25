@@ -1,25 +1,20 @@
-
+// src/data/staff.js
 export const staffData = {
   principal: {
-    name: 'Shivaji Patil',
-    nameMr: 'शिवाजी पाटील',
-    designation: 'Principal',
-    designationMr: 'प्राचार्य',
-    qualification: '[ADD QUALIFICATION]',
-    experience: '[ADD EXPERIENCE]',
-    image: '/assets/staff/principal.jpg'
+    name: 'Swati Sharad Nalawade',
+    nameMr: 'स्वाती शरद नलवडे',
+    designation: 'Grukul Head',
+    designationMr: 'गुरुकुल प्रमुख',
+    image: '/images/WhatsApp Image 2026-09-13 at 3.24.44 PM (2).jpeg'
   },
   teaching: [
     {
-      name: '[ADD STAFF NAME]',
-      nameMr: '[ADD STAFF NAME - मराठी]',
+      name: 'Ravasahab V Shinde',
+      nameMr: 'रावसाहेब वसंतराव शिंदे',
       designation: 'Teacher',
       designationMr: 'शिक्षक',
-      subject: '[ADD SUBJECT]',
-      subjectMr: '[ADD SUBJECT - मराठी]',
-      image: '/assets/staff/teacher1.jpg'
+      image: '/images/WhatsApp%20Image%202026-09-13%20at%203.24.44%20PM%20(1).jpeg'
     },
-    // Add more teachers as needed
   ],
   nonTeaching: [
     {
@@ -28,7 +23,8 @@ export const staffData = {
       designation: 'Head Clerk',
       designationMr: 'मुख्य लिपिक',
       subject: 'Administration',
-      subjectMr: 'प्रशासन'
+      subjectMr: 'प्रशासन',
+      image: ''
     },
     {
       name: 'Junior Clerk',
@@ -36,7 +32,8 @@ export const staffData = {
       designation: 'Junior Clerk',
       designationMr: 'कनिष्ठ लिपिक',
       subject: 'Administration',
-      subjectMr: 'प्रशासन'
+      subjectMr: 'प्रशासन',
+      image: ''
     },
     {
       name: 'Lab Assistant',
@@ -44,7 +41,8 @@ export const staffData = {
       designation: 'Lab Assistant',
       designationMr: 'प्रयोगशाळा सहाय्यक',
       subject: 'Laboratory',
-      subjectMr: 'प्रयोगशाळा'
+      subjectMr: 'प्रयोगशाळा',
+      image: ''
     }
   ]
 };

@@ -23,7 +23,6 @@ const FAQ = () => {
     <section id="faq" className="section" style={{ background: 'var(--gray)' }}>
       <div className="container">
         <h2 className="section-title text-center">{t.faqTitle}</h2>
-        <p className="section-subtitle text-center">[ADD FAQ OVERVIEW]</p>
         
         <div className="faq-list">
           {faqs.map((item, index) => (

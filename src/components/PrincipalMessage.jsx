@@ -12,8 +12,11 @@ const PrincipalMessage = () => {
         <div className="principal-grid">
           <div className="principal-photo fade-up">
             <div className="principal-img-placeholder">
-              <i className="fas fa-user-tie"></i>
-              <span>[ADD PRINCIPAL PHOTO]</span>
+              <img
+                src="/images/WhatsApp Image 2026-09-13 at 3.24.44 PM.jpeg"
+                alt="R. B. Patil Vidyalaya, Sadoli Khalsa"
+                className="principal-img"
+              />
             </div>
           </div>
           <div className="principal-text fade-up">
