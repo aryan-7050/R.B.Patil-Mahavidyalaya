@@ -62,12 +62,12 @@ const Admissions = () => {
 
           {/* Call Admission */}
           <a
-            href="tel:9822478996"
-            className="btn btn-primary"
-            style={{ marginRight: '16px' }}
+            href="tel:+919822478996"
+            className="btn btn-primary admission-btn"
+            aria-label={`Call admission at 9822478996`}
           >
-            <i className="fas fa-phone"></i>{' '}
-            {t.callAdmission}
+            <i className="fas fa-phone" aria-hidden="true"></i>
+            <span>{t.callAdmission}: 9822478996</span>
           </a>
 
           {/* WhatsApp Enquiry */}
@@ -75,10 +75,11 @@ const Admissions = () => {
             href="https://wa.me/919822459656"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-navy"
+            className="btn btn-navy admission-btn"
+            aria-label={`WhatsApp enquiry at 9822459656`}
           >
-            <i className="fab fa-whatsapp"></i>{' '}
-            {t.whatsappEnquiry}
+            <i className="fab fa-whatsapp" aria-hidden="true"></i>
+            <span>{t.whatsappEnquiry}: 9822459656</span>
           </a>
 
         </div>
