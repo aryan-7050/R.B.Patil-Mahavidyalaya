@@ -3,8 +3,8 @@ import { useLanguage } from '../context/LanguageContext';
 
 const FloatingButtons = () => {
   const { language } = useLanguage();
-  const phone = '[ADD SCHOOL PHONE NUMBER]';
-  const whatsapp = '[ADD WHATSAPP NUMBER]';
+  const phone = '+919822478996';
+  const whatsapp = '919822459656';
   
   const msg = language === 'mr' 
     ? 'नमस्कार, मला रा. ब. पाटील विद्यालय, सडोली खालसा येथे प्रवेशाबाबत माहिती हवी आहे.'
