@@ -1,232 +1,132 @@
-# R. B. Patil Mahavidyalaya Website
+# R. B. Patil Vidyalaya Website
 
-A modern, responsive and professional institutional website developed for **R. B. Patil Mahavidyalaya** as a **Sponsored Client Project**.
+Official website for **R. B. Patil Vidyalaya**, Sadoli Khalsa, Taluka Karvir, District Kolhapur, Maharashtra.
 
-The project focuses on creating a clean online presence for the institution, presenting important information, academic details, activities and contact information in a user-friendly and responsive interface.
+A fast, responsive school website that gives students, parents and visitors easy access to academics, facilities, events, admissions and contact information.
 
-## 🌐 Live Website
-
-**Live Demo:**
-https://r-b-patil-mahavidyalaya.vercel.app/
-
-## 📌 Project Type
-
-**Sponsored Client Project**
-
-This website was developed as a paid client project with a project value of **₹4,000**.
-
-The goal was to design and develop a professional educational website that is responsive, easy to navigate and suitable for students, parents, faculty and visitors.
+**Live Website:** https://r-b-patil-mahavidyalaya.vercel.app/
 
 ---
 
-## 🎯 Project Objective
+## About the Project
 
-The main objective of this project was to build a professional web presence for the college that:
+This is a client project built for a rural school in Kolhapur. The goal was to give the school a clean, professional online presence that works well on low-cost phones and slow mobile networks, since most visitors are parents browsing on their phones.
 
-* Presents institutional information clearly
-* Provides an easy-to-use navigation experience
-* Works smoothly across desktop, tablet and mobile devices
-* Highlights academic and institutional information
-* Provides visitors with important contact and college information
-* Uses a modern and clean visual design
-* Provides a scalable frontend structure for future improvements
+## Features
 
----
+- **School Information:** about the school, vision and institutional details
+- **Academics:** classes, curriculum and academic information
+- **Facilities:** infrastructure and student facilities
+- **Events and Activities:** school programs and highlights
+- **Admissions:** admission information for parents
+- **Contact:** address, phone and location details
+- **Responsive Design:** works on mobile, tablet and desktop
+- **SEO Ready:** proper page title and meta description for search engines
 
-## ✨ Key Features
+> Edit this list to match exactly what is live on the site (e.g. gallery, notice board, admission enquiry form, Google Maps, WhatsApp button, Marathi/English toggle).
 
-### 🏫 Institutional Information
+## Tech Stack
 
-* College introduction
-* About section
-* Institutional information
-* Academic information
-* Important college details
+| Technology | Purpose |
+| --- | --- |
+| React | UI components |
+| Vite | Build tool and dev server |
+| JavaScript (ES6+) | Application logic |
+| HTML5 / CSS3 | Structure and styling |
+| Vercel | Hosting and deployment |
+| Git / GitHub | Version control |
 
-### 📱 Responsive Design
+## Project Structure
 
-* Mobile-friendly interface
-* Tablet and desktop support
-* Responsive layouts
-* Flexible sections and components
-* Optimized navigation experience
-
-### 🎨 Modern UI
-
-* Clean educational website design
-* Consistent typography and spacing
-* Modern layouts
-* Reusable UI sections
-* User-friendly navigation
-
-### 📚 Academic Presentation
-
-* Structured presentation of academic information
-* Department/course related sections
-* Information organized for easy access
-
-### 📞 Contact & Information
-
-* Contact information
-* Location/institution details
-* Easy access to important information
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose                        |
-| ---------- | ------------------------------ |
-| React.js   | Frontend development           |
-| JavaScript | Application logic              |
-| HTML5      | Website structure              |
-| CSS3       | Styling and responsive layouts |
-| Vite       | Development and build tooling  |
-| Git        | Version control                |
-| GitHub     | Source code management         |
-| Vercel     | Deployment                     |
-
----
-
-## 🏗️ Project Structure
-
-```text
-R.B.Patil-Mahavidyalaya/
-│
+```
 ├── public/
-│   └── images/
-│
+│   └── images/          # Static images
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-└── README.md
+│   ├── assets/          # Fonts, icons, media
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page-level sections
+│   ├── App.jsx          # Root component
+│   └── main.jsx         # Entry point
+├── index.html           # HTML template
+├── vite.config.js       # Vite configuration
+└── package.json         # Dependencies and scripts
 ```
 
-> Project structure may evolve as new features and sections are added.
+## Getting Started
 
----
+### Prerequisites
 
-## 🚀 Getting Started
+- [Node.js](https://nodejs.org/) 18 or later
+- npm (comes with Node.js)
 
-### 1. Clone the repository
+### Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/aryan-7050/R.B.Patil-Mahavidyalaya.git
-```
 
-### 2. Navigate to the project
-
-```bash
+# Go into the project folder
 cd R.B.Patil-Mahavidyalaya
-```
 
-### 3. Install dependencies
-
-```bash
+# Install dependencies
 npm install
-```
 
-### 4. Start the development server
-
-```bash
+# Start the development server
 npm run dev
 ```
 
-The application will be available on the local development server shown by Vite.
+The site will open at the local URL shown in your terminal (usually `http://localhost:5173`).
 
----
+### Available Scripts
 
-## 📦 Production Build
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build in `dist/` |
+| `npm run preview` | Preview the production build locally |
 
-To create a production build:
+## Deployment
 
-```bash
-npm run build
-```
+The site is deployed on **Vercel**. Every push to the `main` branch triggers an automatic deployment.
 
-To preview the production build locally:
+To deploy elsewhere (Netlify, Cloudflare Pages, etc.):
 
-```bash
-npm run preview
-```
+1. Run `npm run build`
+2. Publish the generated `dist/` folder
 
----
+## Updating Content
 
-## 🚀 Deployment
+Most school content (text, images, contact details) lives in `src/` and `public/images/`.
 
-The website is deployed using **Vercel**.
+1. Edit the relevant file or replace the image
+2. Test locally with `npm run dev`
+3. Commit and push to `main`
+4. Vercel redeploys automatically within a minute or two
 
-**Production Website:**
-https://r-b-patil-mahavidyalaya.vercel.app/
+## Roadmap
 
----
+Possible future improvements:
 
-## 💼 Client Project
+- [ ] Admission enquiry form (email or WhatsApp)
+- [ ] Photo gallery
+- [ ] Notice board / news section
+- [ ] Marathi / English language toggle
+- [ ] Custom domain
+- [ ] Simple admin panel for content updates
 
-**Project:** R. B. Patil Mahavidyalaya Website
-**Type:** Sponsored Client Project
-**Project Value:** ₹4,000
-**Role:** Frontend Developer / Website Developer
-
-### Responsibilities
-
-* Designed and developed the website frontend
-* Converted the institutional requirements into a responsive web interface
-* Created reusable React components
-* Implemented responsive layouts
-* Organized institutional content into user-friendly sections
-* Optimized the website for different screen sizes
-* Managed project source code using Git and GitHub
-* Deployed the website using Vercel
-* Incorporated client feedback and requirements during development
-
----
-
-## 📈 Project Highlights
-
-* Built for a **real institutional client**
-* Developed as a **paid client project**
-* Responsive across different screen sizes
-* Modern React-based frontend
-* Deployed production website
-* Designed around real client requirements
-* Structured for future feature expansion
-
----
-
-## 👨‍💻 Developer
+## Developer
 
 **Aryan Patil**
+Frontend and Full-Stack Developer
 
-Final-Year B.Tech Computer Science Student
-Frontend & Full-Stack Developer
+- Portfolio: https://aryan7050.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/aryan-patil-5b9331291/
+- GitHub: https://github.com/aryan-7050
 
-### Skills Used
+For website updates, maintenance or similar projects, feel free to get in touch.
 
-`React.js` `JavaScript` `HTML5` `CSS3` `Responsive Design` `Git` `GitHub` `Vite` `Vercel`
+## License
 
----
+Copyright (c) 2026 Aryan Patil. All rights reserved.
 
-## 🔗 Links
-
-* **Live Website:** https://r-b-patil-mahavidyalaya.vercel.app/
-* **GitHub Repository:** https://github.com/aryan-7050/R.B.Patil-Mahavidyalaya
-* **Portfolio:** https://aryan7050.vercel.app/
-* **LinkedIn:** https://www.linkedin.com/in/aryan-patil-5b9331291/
-
----
-
-## 📄 License
-
-This project was developed as a client project for R. B. Patil Mahavidyalaya.
-
-The source code and design may not be reused, redistributed or reproduced for commercial purposes without appropriate permission.
+This website was developed for R. B. Patil Vidyalaya. The school may use and maintain the website. The source code may not be copied, resold or redistributed without written permission from the developer.
