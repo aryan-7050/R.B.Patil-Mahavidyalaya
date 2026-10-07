@@ -118,15 +118,3 @@ Possible future improvements:
 
 **Aryan Patil**
 Frontend and Full-Stack Developer
-
-- Portfolio: https://aryan7050.vercel.app/
-- LinkedIn: https://www.linkedin.com/in/aryan-patil-5b9331291/
-- GitHub: https://github.com/aryan-7050
-
-For website updates, maintenance or similar projects, feel free to get in touch.
-
-## License
-
-Copyright (c) 2026 Aryan Patil. All rights reserved.
-
-This website was developed for R. B. Patil Vidyalaya. The school may use and maintain the website. The source code may not be copied, resold or redistributed without written permission from the developer.
