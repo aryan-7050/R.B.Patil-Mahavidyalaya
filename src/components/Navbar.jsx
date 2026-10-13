@@ -21,7 +21,7 @@ const Navbar = () => {
     { key: 'home', label: t.home },
     { key: 'about', label: t.about },
     { key: 'facilities', label: t.facilities },
-    { key: 'staff', label: t.staff },
+    // { key: 'staff', label: t.staff },
     { key: 'events', label: t.events },
     { key: 'admissions', label: t.admissions },
     { key: 'contact', label: t.contact },

@@ -10,7 +10,7 @@ import About from './components/About';
 import VisionMission from './components/VisionMission';
 import WhyChooseUs from './components/WhyChooseUs';
 import Facilities from './components/Facilities';
-import Staff from './components/Staff';
+// import Staff from './components/Staff';
 import PrincipalMessage from './components/PrincipalMessage';
 import Events from './components/Events';
 import Exams from './components/Exams';
@@ -59,7 +59,7 @@ function App() {
               <Facilities />
               <Exams />  
               <PrincipalMessage />
-              <Staff />
+              {/* <Staff /> */}
               <Events />
               <Achievements />
               <Admissions />
