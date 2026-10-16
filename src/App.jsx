@@ -59,7 +59,7 @@ function App() {
               <Facilities />
               <Exams />  
               <PrincipalMessage />
-              {/* <Staff /> */}
+          
               <Events />
               <Achievements />
               <Admissions />

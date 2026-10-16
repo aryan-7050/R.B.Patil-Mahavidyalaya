@@ -889,7 +889,6 @@ body {
   margin-bottom: 16px;
 }
 
-/* ===== PRINCIPAL MESSAGE ===== */
 .principal-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
